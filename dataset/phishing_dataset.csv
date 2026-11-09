@@ -1,0 +1,11 @@
+
+url,label
+https://www.google.com,0
+https://www.wikipedia.org,0
+https://www.microsoft.com,0
+https://www.python.org,0
+http://secure-login-example.invalid,1
+http://account-verify-example.invalid,1
+http://free-prize-example.invalid,1
+http://update-password-example.invalid,1
+c:\Users\owner\Downloads\phiusiil+phishing+url+dataset\PhiUSIIL_Phishing_URL_Dataset.csvpython -c "import pandas as pd; d=pd.read_csv('dataset/PhiUSIIL_Phishing_URL_Dataset.csv', nrows=5); print(d.columns.tolist()); print(d.head(2).to_string())"
